@@ -22,7 +22,7 @@ This combination allows us to train models on diverse mental health discussions 
 ---
 
 ## 🛠️ Methodology: NLP & Machine Learning Pipeline
-![image](https://github.com/user-attachments/assets/7e91caad-1ed9-45c7-8b04-37004923fb00)
+![image](https://github.com/user-attachments/assets/284a8024-450f-4ecc-aa9c-6eb7650c66fe)
 
 
 ### **1. Data Collection & Preprocessing**
@@ -54,15 +54,14 @@ Our model's performance on the labeled datasets was strong. Using **TF-IDF** and
 By applying our classifier to McGill subreddit posts, we uncovered meaningful insights:
 
 - **High prevalence of stress-related discussions**, particularly during exam periods.
-- ![image](https://github.com/user-attachments/assets/bc0170db-edbc-4abe-9c99-325007c0d03f)
-
+![image](https://github.com/user-attachments/assets/0d0708ed-8fe9-4411-81ab-28c7187be767)
 
 - Using **LDA (Latent Dirichlet Allocation)** topic modeling analysis to uncover common themes in student discussions regarding stress and depression, we uncovered three main groups:
 1. **Academic Stress**: Students frequently discuss exams, courses, and academic workload, with emotional terms like "feel" and "much" indicating stress.
 2. **Seeking Guidance & Reassurance**: Many students express uncertainty and emotional burden, seeking help, validation, or shared experiences.
 3. **Need for Social Connection**: There is a noticeable demand for friendship and emotional support, highlighting the role of community in coping with stress.
-We also realized that there is an overlap in discussions. The coherence score suggests that these concerns are interconnected rather than strictly distinct topics.
-![image](https://github.com/user-attachments/assets/3966a1d2-b01f-45df-abfa-1da5e47f8ee0)
+We also realized that discussions overlap. The coherence score suggests that these concerns are interconnected rather than strictly distinct topics.
+![image](https://github.com/user-attachments/assets/e54fae45-8975-495b-8e84-6a8ba570dd96)
 
 
 Our work highlights how **NLP-driven classifiers** can help analyze student mental health trends, potentially guiding universities to offer better support systems.
