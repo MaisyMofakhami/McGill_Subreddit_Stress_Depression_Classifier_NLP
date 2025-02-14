@@ -22,6 +22,7 @@ This combination allows us to train models on diverse mental health discussions 
 ---
 
 ## 🛠️ Methodology: NLP & Machine Learning Pipeline
+
 ![image](https://github.com/user-attachments/assets/284a8024-450f-4ecc-aa9c-6eb7650c66fe)
 
 
@@ -54,6 +55,7 @@ Our model's performance on the labeled datasets was strong. Using **TF-IDF** and
 By applying our classifier to McGill subreddit posts, we uncovered meaningful insights:
 
 - **High prevalence of stress-related discussions**, particularly during exam periods.
+  
 ![image](https://github.com/user-attachments/assets/0d0708ed-8fe9-4411-81ab-28c7187be767)
 
 - Using **LDA (Latent Dirichlet Allocation)** topic modeling analysis to uncover common themes in student discussions regarding stress and depression, we uncovered three main groups:
@@ -61,6 +63,7 @@ By applying our classifier to McGill subreddit posts, we uncovered meaningful in
 2. **Seeking Guidance & Reassurance**: Many students express uncertainty and emotional burden, seeking help, validation, or shared experiences.
 3. **Need for Social Connection**: There is a noticeable demand for friendship and emotional support, highlighting the role of community in coping with stress.
 We also realized that discussions overlap. The coherence score suggests that these concerns are interconnected rather than strictly distinct topics.
+
 ![image](https://github.com/user-attachments/assets/e54fae45-8975-495b-8e84-6a8ba570dd96)
 
 
